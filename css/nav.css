@@ -8,6 +8,10 @@ body {
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
 body {
   background: #FFFFFF;
 }
@@ -71,6 +75,71 @@ li {
   cursor: pointer;
 }
 
+.popbox {
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  margin-right: 21%;
+  top: 5.875em;
+  right: 0;
+  width: 280px;
+  height: 300px;
+  background-image: url('../img/login_area.png');
+  background-size: 280px 300px;
+  text-align: center;
+}
+
+h1.login-title{
+  font-size: 24px;
+  color: #008156;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+h2.login-content{
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+  letter-spacing: -20;
+  margin-top: 12px;
+}
+
+.check-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+label.remember-check{
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 60%;
+  margin-left: 8px;
+}
+
+input[type='radio']{
+  width: 15px;
+  height: 15px;
+  background: url('../img/radio_unselected.png') 0 0 no-repeat;
+  -webkit-appearance: none;
+  -webkit-border: 0px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+input[type='radio']:checked{
+  background: url('../img/radio_selected.png') 0 0;
+}
+
+
+.login-btn{
+  margin-top: 20px;
+}
+
 @media (max-width: 1140px) {
   nav {
     flex-direction: column;
@@ -97,11 +166,6 @@ li {
     display: none;
   }
 
-  .sns-links {
-    justify-content: center;
-    display: none;
-  }
-
   li {
     display: flex;
     justify-content: center;
@@ -109,5 +173,8 @@ li {
 
   .active {
     display: flex;
+  }
+  .popbox {
+    display: none;
   }
 }

@@ -53,41 +53,69 @@
         </div>
         <div class="form-container">
             <div class="container container1">
-                <div class="item"><h4>신청자 정보</h4></div>
-                <input class="ex" type="text" size="30" placeholder="         ex) 1509, 홍길동, s2019d09@e-mirim.hs.kr"
-                    style="font-size: 15px;" maxlength="50">
+                <div class="item item1">
+                    <h4>학번</h4>
+                </div>
+                <input class="grade" type="text" size="30" placeholder="학번을 입력해주세요." maxlength="50">
+
+                <div class="item item2">
+                    <h4>이름</h4>
+                </div>
+                <input class="name1" type="text" size="30" placeholder="이름을 입력해주세요." maxlength="50">
+            </div>
+
+            <div class="container container5">
+                <div class="item">
+                    <h4>이메일</h4>
+                </div>
+                <input type="text" size="40" placeholder="이메일을 입력해주세요." maxlength="50">
             </div>
 
             <div class="container container2">
-                <div class="item"><h4>연락처</h4></div>
-                <input class="number" type="text" size="30" placeholder="      연락처를 입력해주세요." maxlength="50">
+                <div class="item">
+                    <h4>연락처</h4>
+                </div>
+                <input type="text" size="30" placeholder="연락처를 입력해주세요." maxlength="50">
             </div>
 
             <div class="container container3">
-                <div class="item"><h4>작가 선택</h4></div>
-                <div class="radio-button">
-                    <input type="radio">
-                    <input type="radio">
-                    <input type="radio">
+                <div class="item" style="color: white;">
+                    <h4>작가 선택</h4>
+                </div>
+                <div class="pg-container">
+                    <div class="radio radio1">
+                        <img src="img/circle2.png">
+                        <span>성진민</span>
+                    </div>
+                    <div class="radio radio2">
+                        <img src="img/circle3.png">
+                        <span>이예서</span>
+                    </div>
+                    <div class="radio radio3">
+                        <img src="img/circle1.png">
+                        <span>전해원</span>
+                    </div>
+
                 </div>
             </div>
 
             <div class="container container4"><br>
-                <div class="item calender"><h4>날짜 선택</h4></div>
-                <div class="calender2"></div>
+                <div class="item">
+                    <h4>날짜 선택</h4>
+                </div>
+                <div class="calender"></div>
             </div>
         </div>
 
-        <div class="check">
-            <p>참여해주셔서 감사합니다! 촬영 컨셉에 대한 논의는 메일 또는 카톡을 통해 진행됩니다.<br>
-                의상은 교복, 체육복 등 개성을 위해 다양하게 착용할 수 있지만,<br>
-                벌점 등의 불상사에 대한 도움을 드릴 수 없습니다.<br>
-                촬영 중 교칙을 어겨서(복장, 소지품 등) 생긴 벌점, 불상사에 대한 도움을 드릴 수 없습니다.<br>
+        <div class="text-container">
+            <h4>참여해주셔서 감사합니다!<br>
+                촬영 컨셉에 대한 논의는 메일 또는 카카오톡을 통해 진행됩니다.<br>
+                촬영 중 교칙 위반으로 인한 불상사에 대해서는 도움을 드릴 수 없습니다.<br>
                 주의사항을 숙지하셨나요?
-            </p>
+            </h4>
         </div>
-        <div class="result">
-            <input class="result2" type="button" value="네" onclick="alert('제출되었습니다.')">
+        <div class="result-container">
+            <input class="result" type="button" value="네" onclick="alert('제출되었습니다.')">
         </div>
     </main>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>

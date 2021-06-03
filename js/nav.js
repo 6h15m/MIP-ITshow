@@ -1,9 +1,8 @@
-const toggleMenu = document.querySelector(".toggle-menu");
-const menu = document.querySelector(".menu");
+const toggleMenu = document.querySelector(".inner-nav");
+const menu = document.querySelector(".inner-nav-btn");
 
 const clickMenu = () => {
   menu.classList.toggle("active");
-  snsButtons.classList.toggle("active");
 };
 
 toggleMenu.addEventListener("click", clickMenu);

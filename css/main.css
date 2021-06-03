@@ -36,36 +36,65 @@ section {
 }
 
 .popbox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  left: 1337px;
+  top: 120px;
   width: 270px;
   height: 280.55px;
   background-image: url(../img/popbox.svg);
+  text-align: center;
 }
 
 .login-title {
   font-family: "AD-B";
-  font-size: 24px;
+  font-size: 26px;
   line-height: 50px;
   color: #008156;
-  margin-top: 48.6px;
+  margin-top: 42px;
 }
 
 .login-content {
   font-family: "AD-SB";
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
   color: #000000;
   opacity: 80%;
-  margin-top: 30px;
-  margin-bottom: 29px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[id="remember-check"]{
+  display: none;
 }
 
 input[id="remember-check"] + label {
+  padding-left: 24px;
   font-family: "AD-SB";
-  font-size: 12px;
+  font-size: 17px;
   color: #000000;
-  opacity: 60%;
+  opacity: 80%;
+  background: url("../img/check_unselected.svg") no-repeat;
   cursor: pointer;
+}
+
+input[id="remember-check"]:checked + label {
+  background: url("../img/check_selected.svg") no-repeat;
+}
+
+
+.login-btn{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 40px;
+  font-family: "AD-B";
+  font-size: 16px;
+  color: white;
+  background-color: #008156;
+  border-radius: 6px;
+  margin-top: 12px;
 }

@@ -1,2 +1,71 @@
+section {
+  display: flex;
+  flex-direction: column;
+  width: 1490px;
+  height: 900px;
+  background-color: #ffd800;
+}
 
+.logo {
+  margin-top: 120px;
+  margin-left: 128px;
+  margin-right: 142px;
+  cursor: pointer;
+}
 
+.inner-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 1390px;
+  height: 80px;
+}
+
+.inner-nav-btn {
+  color: white;
+  font-family: "AD-B";
+  font-size: 20px;
+  margin-left: 60px;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.inner-nav-btn:hover {
+  opacity: 100%;
+}
+
+.popbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 280.55px;
+  background-image: url(../img/popbox.svg);
+}
+
+.login-title {
+  font-family: "AD-B";
+  font-size: 24px;
+  line-height: 50px;
+  color: #008156;
+  margin-top: 48.6px;
+}
+
+.login-content {
+  font-family: "AD-SB";
+  font-size: 14px;
+  line-height: 25px;
+  color: #000000;
+  opacity: 80%;
+  margin-top: 30px;
+  margin-bottom: 29px;
+}
+
+input[id="remember-check"] + label {
+  font-family: "AD-SB";
+  font-size: 12px;
+  color: #000000;
+  opacity: 60%;
+  cursor: pointer;
+}

@@ -60,6 +60,7 @@ body {
     align-items: flex-end;
     width: 1190px;
     height: 80px;
+    margin-top: 2rem;
   }
   
   .inner-nav-btn {

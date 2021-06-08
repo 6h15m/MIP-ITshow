@@ -2,96 +2,108 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>개인 예약 | 미림 인 포토</title>
-    <link rel="stylesheet" href="css/reservation.css" type="text/css" />
-    <link rel="stylesheet" href="css/nav.css" type="text/css" />
+    <title>Mirim in Photo | 개인 예약</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/reservation.css" type="text/css">
+    <link rel="stylesheet" href="css/myrev.css" type="text/css">
 </head>
 
 <body>
-    <nav>
-        <div class="logo-container">
-            <div class="logo"><img src="img/logo.png" width="60px" height="50px" /></div>
-            <div class="toggle-menu display-none"><i class="fas fa-bars"></i></div>
-        </div>
-        <ul class="menu">
-            <a href="about.html">
-                <li>ABOUT</li>
-            </a>
-            <a href="gallery.html">
-                <li>GALLERY</li>
-            </a>
-            <a href="reservation.html">
-                <li>RESERVATION</li>
-            </a>
-            <a href="portfolio.html">
-                <li>PORTFOLIO</li>
-            </a>
-            <a href="#" class="popper" data-popbox="pop">
-                <li>LOGIN</li>
-            </a>
-        </ul>
-    </nav>
-    <div id="pop" class="popbox">
-        <h1 class="login-title">LOGIN</h1>
-        <h2 class="login-content">로그인 후 MIRIM IN PHOTO<br>
-            프로젝트에 참여해보세요!</h2>
-        <div class="check-wrap">
-            <input type="radio" name="remember-check" class="remember-check" />
-            <label for="remember-check" class="remember-check">로그인 상태 유지</label>
-        </div>
-        <a href="#" class="login-btn"><img src="img/login_btn.png" width="220px" height="40px" /></a>
-    </div>
-
+    <img class="logo" src="img/logo.svg" />
     <main>
-        <div class="text-container">
-            <h3>개인 예약 신청서</h3>
-            <h4>1. 점심시간을 이용하여 원하는 공간에서 원하는 소품과 함께 촬영이 진행됩니다.<br>
-                2. 촬영이 끝난 후 'About ME'에 따라 보정이 진행됩니다.<br>
-                3. 지친 하루 끝에 미림의 추억이 담긴 사진이 메일로 전송됩니다.</h4>
-        </div>
-        <div class="form-container">
-            <div class="container container1">
-                <div class="item"><h4>신청자 정보</h4></div>
-                <input class="ex" type="text" size="30" placeholder="         ex) 1509, 홍길동, s2019d09@e-mirim.hs.kr"
-                    style="font-size: 15px;" maxlength="50">
+        <nav>
+            <div class="nav-btn" id="btn-status">예약 현황</div>
+            <div class="nav-btn" id="btn-individual">개인 예약</div>
+            <div class="nav-btn" id="btn-group">단체 예약</div>
+            <div class="nav-btn" id="btn-myrev">내 예약</div>
+            <a href="#"><div class="logout-btn">로그아웃 ></div></a>
+        </nav>
+        <section>
+            <div class="inner-nav">
+                <div class="inner-nav-btn">RESERVATION</div>
+                <div class="inner-nav-btn">GALLERY</div>
             </div>
-
-            <div class="container container2">
-                <div class="item"><h4>연락처</h4></div>
-                <input class="number" type="text" size="30" placeholder="      연락처를 입력해주세요." maxlength="50">
-            </div>
-
-            <div class="container container3">
-                <div class="item"><h4>작가 선택</h4></div>
-                <div class="radio-button">
-                    <input type="radio">
-                    <input type="radio">
-                    <input type="radio">
+            <div  class = "has-scroll-smooth">
+            <div class="body">
+            <div class="main">
+                <div class="text-container">
+                    <h3 class="Explanation">개인 예약 신청서</h3>
+                    <h4 class="Explanation2">1. 점심시간을 이용하여 원하는 공간에서 원하는 소품과 함께 촬영이 진행됩니다.<br>
+                        2. 촬영이 끝난 후 'About ME'에 따라 보정이 진행됩니다.<br>
+                        3. 지친 하루 끝에 미림의 추억이 담긴 사진이 메일로 전송됩니다.</h4>
+                </div>
+                <div class="form-container">
+                    <div class="container container1">
+                        <div class="item item1">
+                            <h4>학번</h4>
+                        </div>
+                        <input class="grade" type="text" size="30" placeholder="학번을 입력해주세요." maxlength="50">
+        
+                        <div class="item item2">
+                            <h4>이름</h4>
+                        </div>
+                        <input class="name1" type="text" size="30" placeholder="성함을 입력해주세요." maxlength="50">
+                    </div>
+        
+                    <div class="container container5">
+                        <div class="item">
+                            <h4>이메일</h4>
+                        </div>
+                        <input type="text" size="40" placeholder="이메일을 입력해주세요." maxlength="50">
+                    </div>
+        
+                    <div class="container container2">
+                        <div class="item">
+                            <h4>연락처</h4>
+                        </div>
+                        <input type="text" size="40" placeholder="연락처를 입력해주세요." maxlength="50">
+                    </div>
+        
+                    <div class="container container3">
+                        <div class="item" style="color: white;">
+                            <h4>작가 선택</h4>
+                        </div>
+                        <div class="pg-container">
+                            <div class="radio radio1">
+                                <img class="selection" src="img/circle2.png">
+                                <span>성진민</span>
+                            </div>
+                            <div class="radio radio2">
+                                <img class="selection" src="img/circle3.png">
+                                <span>이예서</span>
+                            </div>
+                            <div class="radio radio3">
+                                <img class="selection" src="img/circle1.png">
+                                <span>전해원</span>
+                            </div>
+        
+                        </div>
+                    </div>
+        
+                    <div class="container container4"><br>
+                        <div class="item">
+                            <h4>날짜 선택</h4>
+                        </div>
+                        <div class="calender"></div>
+                    </div>
+                </div>
+        
+                <div class="text-container">
+                    <h4 class="thank">참여해주셔서 감사합니다!<br>
+                        촬영 컨셉에 대한 논의는 메일 또는 카카오톡을 통해 진행됩니다.<br>
+                        촬영 중 교칙 위반으로 인한 불상사에 대해서는 도움을 드릴 수 없습니다.<br>
+                        주의사항을 숙지하신 후 신청해 주시기 바랍니다.
+                    </h4>
+                </div>
+                <div class="result-container">
+                    <input class="result" type="button" value="신청하기" onclick="alert('신청되었습니다.')">
                 </div>
             </div>
-
-            <div class="container container4"><br>
-                <div class="item calender"><h4>날짜 선택</h4></div>
-                <div class="calender2"></div>
             </div>
-        </div>
-
-        <div class="check">
-            <p>참여해주셔서 감사합니다! 촬영 컨셉에 대한 논의는 메일 또는 카톡을 통해 진행됩니다.<br>
-                의상은 교복, 체육복 등 개성을 위해 다양하게 착용할 수 있지만,<br>
-                벌점 등의 불상사에 대한 도움을 드릴 수 없습니다.<br>
-                촬영 중 교칙을 어겨서(복장, 소지품 등) 생긴 벌점, 불상사에 대한 도움을 드릴 수 없습니다.<br>
-                주의사항을 숙지하셨나요?
-            </p>
-        </div>
-        <div class="result">
-            <input class="result2" type="button" value="네" onclick="alert('제출되었습니다.')">
-        </div>
+            </div>
+        </section>
     </main>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
-    <script src="js/nav.js" defer></script>
 </body>
 
 </html>

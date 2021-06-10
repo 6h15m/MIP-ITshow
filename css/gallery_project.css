@@ -1,5 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 162px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 800px;
+}
+
+.logo {
+  margin-top: 80px;
+  margin-left: 128px;
+  margin-right: 142px;
+  cursor: pointer;
+}
+
+.upper-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 1390px;
+  height: 120px;
+}
+
+.inner-nav-btn {
+  color: #ffd800;
+  font-family: "AD-B";
+  font-size: 20px;
+  margin-left: 60px;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.inner-nav-btn:hover {
+  opacity: 100%;
+}
+
 .nav-pj {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   font-family: "AD-B";
@@ -16,6 +71,9 @@
 }
 
 .nav-loc {
+  display: flex;
+  width: 44px;
+  flex-wrap: nowrap;
   margin-right: 44px;
   font-family: "AD-B";
   font-size: 24px;
@@ -29,6 +87,9 @@
 }
 
 .nav-pr {
+  display: flex;
+  width: 88px;
+  flex-wrap: nowrap;
   margin-left: 44px;
   font-family: "AD-B";
   font-size: 24px;
@@ -39,4 +100,83 @@
 
 .nav-pr:hover {
   opacity: 100%;
+}
+
+.banner {
+  display: flex;
+  width: 1920px;
+  height: 600px;
+  background-color: #ffd800;
+}
+
+.pj-1 {
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  left: 370px;
+  top: 1040px;
+  background-color: black;
+}
+
+.popbox {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  left: 1337px;
+  top: 140px;
+  width: 270px;
+  height: 280.55px;
+  background-image: url(../img/popbox_border.svg);
+  text-align: center;
+}
+
+.login-title {
+  font-family: "AD-B";
+  font-size: 26px;
+  line-height: 50px;
+  color: #008156;
+  margin-top: 42px;
+}
+
+.login-content {
+  font-family: "AD-SB";
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+  opacity: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[id="remember-check"] {
+  display: none;
+}
+
+input[id="remember-check"] + label {
+  padding-left: 24px;
+  font-family: "AD-SB";
+  font-size: 17px;
+  color: #000000;
+  opacity: 80%;
+  background: url("../img/check_unselected.svg") no-repeat;
+  cursor: pointer;
+}
+
+input[id="remember-check"]:checked + label {
+  background: url("../img/check_selected.svg") no-repeat;
+}
+
+.login-btn {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 40px;
+  font-family: "AD-B";
+  font-size: 16px;
+  color: white;
+  background-color: #008156;
+  border-radius: 6px;
+  margin-top: 12px;
 }

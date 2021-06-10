@@ -1,0 +1,42 @@
+.nav-pj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "AD-B";
+  font-size: 28px;
+  color: #ffd800;
+  width: 200px;
+  height: 80px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffd800;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.nav-loc {
+  margin-right: 44px;
+  font-family: "AD-B";
+  font-size: 24px;
+  color: #000000;
+  opacity: 40%;
+  cursor: pointer;
+}
+
+.nav-loc:hover {
+  opacity: 100%;
+}
+
+.nav-pr {
+  margin-left: 44px;
+  font-family: "AD-B";
+  font-size: 24px;
+  color: #000000;
+  opacity: 40%;
+  cursor: pointer;
+}
+
+.nav-pr:hover {
+  opacity: 100%;
+}

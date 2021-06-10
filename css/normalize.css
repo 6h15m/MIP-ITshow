@@ -8,15 +8,6 @@ body {
   font-family: "AD-M";
   line-height: normal;
 }
-
-main {
-  display: flex;
-  width: 1490px;
-  height: 900px;
-  border: solid #ffd800 4px;
-  margin-top: 30px;
-  margin-right: 70px;
-}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -27,7 +18,7 @@ main {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- @font-face {
+@font-face {
   font-family: "AD-T";
   src: url(../fonts/Arita4.0_T.ttf) format("truetype");
 }

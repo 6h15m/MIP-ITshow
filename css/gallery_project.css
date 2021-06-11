@@ -109,6 +109,8 @@ nav {
   background-color: #ffd800;
 }
 
+/* div 클래스 속성 */ 
+
 .pj-1 {
   position: absolute;
   width: 1180px;
@@ -153,7 +155,7 @@ nav {
   left: 264px;
   top: 3600px
 }
-
+/* 페이지 2 */
 .pj-6{
   position: absolute;
   width: 780px;
@@ -197,6 +199,240 @@ nav {
   background-color: olive;
   right: 370px;
   top: 3150px;
+}
+/* 페이지 3 */
+.pj-11{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 1040px;
+}
+
+.pj-12{
+  position: absolute;
+  width: 580px;
+  height: 700px;
+  background-color: red;
+  left: 370px;
+  top: 1880px;
+}
+
+.pj-13{
+  position: absolute;
+  width: 580px;
+  height: 700px;
+  background-color: blue;
+  right: 370px;
+  top: 2230px;
+}
+
+.pj-14{
+  position: absolute;
+  width: 580px;
+  height: 700px;
+  background-color: green;
+  left: 370px;
+  top: 2600px;
+}
+
+.pj-15{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 3420px;
+}
+
+.pj-16{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  right: 370px;
+  top: 4260px;
+}
+
+.pj-17{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  left: 370px;
+  top: 4780px;
+}
+
+.pj-18{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 5400px;
+}
+/* 페이지 4 */
+.pj-19{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 1040px;
+}
+
+.pj-20{
+  position: absolute;
+  width: 480px;
+  height: 760px;
+  background-color: black;
+  left: 370px;
+  top: 1880px;
+}
+
+.pj-21{
+  position: absolute;
+  width: 680px;
+  height: 480px;
+  background-color: black;
+  right: 370px;
+  top: 2030px;
+}
+
+.pj-22{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 2760px;
+}
+/* 페이지 5 */
+.pj-23{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 1040px;
+}
+
+.pj-24{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  left: 370px;
+  top: 1880px;
+}
+
+.pj-25{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  right: 370px;
+  top: 2400px;
+}
+
+.pj-26{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 3020px;
+}
+/* 페이지 6 */
+.pj-27{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 1040px;
+}
+
+.pj-28{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  left: 370px;
+  top: 1880px;
+}
+
+.pj-29{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  right: 370px;
+  top: 2400px;
+}
+
+.pj-30{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 3020px;
+}
+
+.pj-31{
+  position: absolute;
+  width: 580px;
+  height: 800px;
+  background-color: black;
+  left: 370px;
+  top: 3860px;
+}
+
+.pj-32{
+  position: absolute;
+  width: 580px;
+  height: 800px;
+  background-color: black;
+  right: 370px;
+  top: 4140px;
+}
+
+.pj-33{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: black;
+  left: 370px;
+  top: 5060px;
+}
+
+.pj-34{
+  position: absolute;
+  width: 580px;
+  height: 440px;
+  background-color: red;
+  left: 370px;
+  top: 6120px;
+}
+
+.pj-35{
+  position: absolute;
+  width: 580px;
+  height: 440px;
+  background-color: blue;
+  right: 370px;
+  top: 5900px;
+}
+
+.pj-36{
+  position: absolute;
+  width: 580px;
+  height: 440px;
+  background-color: green;
+  right: 370px;
+  top: 6360px;
 }
 .popbox {
   display: none;

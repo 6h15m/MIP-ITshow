@@ -153,6 +153,51 @@ nav {
   left: 264px;
   top: 3600px
 }
+
+.pj-6{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  left: 370px;
+  top: 1040px;
+}
+
+.pj-7{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  right: 370px;
+  top: 1560px;
+}
+
+.pj-8{
+  position: absolute;
+  width: 1180px;
+  height: 720px;
+  background-color: red;
+  left: 370px;
+  top: 2180px;
+}
+
+.pj-9{
+  position: absolute;
+  width: 480px;
+  height: 760px;
+  left: 370px;
+  top: 3000px;
+  background-color: blue;
+}
+
+.pj-10{
+  position: absolute;
+  width: 680px;
+  height: 480px;
+  background-color: olive;
+  right: 370px;
+  top: 3150px;
+}
 .popbox {
   display: none;
   position: absolute;

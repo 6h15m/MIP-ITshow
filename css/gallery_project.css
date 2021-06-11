@@ -118,6 +118,41 @@ nav {
   background-color: black;
 }
 
+.pj-2{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: red;
+  left: 370px;
+  top: 1900px;
+}
+
+.pj-3{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: blue;
+  right: 370px;
+  top: 2430px;
+}
+
+.pj-4{
+  position: absolute;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  right: 370px;
+  top: 3080px 
+}
+
+.pj-5{
+  position: absolute;
+  width: 720px;
+  height: 500px;
+  background-color: black;
+  left: 264px;
+  top: 3600px
+}
 .popbox {
   display: none;
   position: absolute;

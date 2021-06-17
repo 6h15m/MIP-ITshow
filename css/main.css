@@ -65,11 +65,11 @@ section {
   margin-bottom: 20px;
 }
 
-input[id="remember-check"]{
+input[id="remember-check"] {
   display: none;
 }
 
-input[id="remember-check"] + label {
+input[id="remember-check"]+label {
   padding-left: 24px;
   font-family: "AD-SB";
   font-size: 17px;
@@ -79,12 +79,12 @@ input[id="remember-check"] + label {
   cursor: pointer;
 }
 
-input[id="remember-check"]:checked + label {
+input[id="remember-check"]:checked+label {
   background: url("../img/check_selected.svg") no-repeat;
 }
 
 
-.login-btn{
+.login-btn {
   display: flex;
   margin: auto;
   justify-content: center;

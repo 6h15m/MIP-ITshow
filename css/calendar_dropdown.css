@@ -1,15 +1,17 @@
 #dropdown {
-    display: inline;
+    display: absolute;
 }
 
 #dropdown ul {
+    display: absolute;
     list-style:none;
-    padding-left:0px;
+    padding-left: 10px;
     width: 500px;
     margin: 0 auto;
 }
 
 #dropdown .main>li {
+    display: absolute;
     background-color: #FFD800;
     border-radius: 10px;
     float: left;
@@ -23,8 +25,6 @@
 
 #dropdown .main>li:hover .sub {
     display: block;
-    width: 81px;
-    height: 42px;
 }
 
 #dropdown .main>li a {
@@ -36,6 +36,8 @@
 #dropdown .main>li a:hover {
     background-color: #FFD800;
     border-radius: 10px;
+    width: 81px;
+    height: 42px;
     color: rgb(255, 255, 255);
 }
 

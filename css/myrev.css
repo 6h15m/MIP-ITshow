@@ -117,6 +117,16 @@
   color: #ffffff;
 }
 
+.review-btn{
+  position: fixed;
+  z-index: 4832;
+  width: 120px;
+  height: 120px;
+  top: 826px;
+  left: 1627px;
+  cursor: pointer;
+}
+
 /* .scroll-animate {
     padding-top: 60px;
   }
